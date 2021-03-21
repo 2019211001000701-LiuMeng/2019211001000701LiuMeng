@@ -4,11 +4,20 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     <servlet>
-    <servlet-name>LiuMeng</servlet-name>
-    <servlet-class>com.LiuMeng.week2.demo.HelloWorldServlet</servlet-class>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.LiuMeng.week3.demo.RegisterServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-    <servlet-name>LiuMeng</servlet-name>
-    <url-pattern>/hello</url-pattern>
+        <servlet-name>RegisterServlet</servlet-name>
+         <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LiuMeng</servlet-name>
+        <servlet-class>com.LiuMeng.week2.demo.HelloWorldServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LiuMeng</servlet-name>
+        <url-pattern>/hello</url-pattern>
     </servlet-mapping>
 </web-app>
