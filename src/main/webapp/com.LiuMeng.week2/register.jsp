@@ -30,7 +30,7 @@
     <label for="BirthDate">BIRTHDATE</label><br/>
     <input type="date" name="BirthDate" id="BirthDate" placeholder="Day of Birth (yyyy-mm-dd)" ><br/>
 
-    <input type="submit" value="Register" style="background: darkgray;"/><br/>
+    <input type="submit" value="Register" style="background: red;"/><br/>
 
 </form>
 </body>
