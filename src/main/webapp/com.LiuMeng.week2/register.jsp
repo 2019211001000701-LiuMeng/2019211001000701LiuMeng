@@ -11,7 +11,7 @@
     <title>register</title>
 </head>
 <body>
-<form>
+<form method="post" action="register">
     NEW USER REGISTRATION<br/>
     <label for="Username">USERNAME</label><br/>
     <input type="text" name="Username" id="Username" placeholder="Please input username" required autofocus><br/>
@@ -30,7 +30,7 @@
     <label for="BirthDate">BIRTHDATE</label><br/>
     <input type="date" name="BirthDate" id="BirthDate" placeholder="Day of Birth (yyyy-mm-dd)" ><br/>
 
-    <input type="submit" value="Register" style="background: red;"/><br/>
+    <input type="submit" value="Register" style="background: darkgrey;"/><br/>
 
 </form>
 </body>
