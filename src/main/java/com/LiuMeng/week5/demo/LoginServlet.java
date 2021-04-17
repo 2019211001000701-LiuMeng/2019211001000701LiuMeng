@@ -1,4 +1,4 @@
-package com.LiuMeng.week5;
+package com.LiuMeng.week5.demo;
 
 import com.LiuMeng.dao.UserDao;
 import com.LiuMeng.model.User;
