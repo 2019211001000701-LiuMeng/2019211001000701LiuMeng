@@ -22,7 +22,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>LiuMeng</servlet-name>
-        <url-pattern>/hello</url-pattern>
+        <url-pattern>/helo</url-pattern>
     </servlet-mapping>
 
     <!--<servlet>
@@ -84,4 +84,16 @@
         <servlet-name>JDBCDemoServlet</servlet-name>
         <url-pattern>/jdbc</url-pattern>
     </servlet-mapping>-->
+
+    <welcome-file-list>
+        <welcome-file>home</welcome-file>
+    </welcome-file-list>
+    <!--<filter>
+        <filter-name>HelloFilter</filter-name>
+        <filter-class>com.LiuMeng.filter.HelloFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>HelloFilter</filter-name>
+        <url-pattern>/hello-servlet</url-pattern>
+    </filter-mapping>-->
 </web-app>
