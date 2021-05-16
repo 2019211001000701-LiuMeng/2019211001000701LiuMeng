@@ -1,7 +1,6 @@
 package com.LiuMeng.model;
 
 import java.io.InputStream;
-
 public class Product {
     private int  productId;
     private int categoryId;

@@ -13,6 +13,7 @@ public class ProductListServlet extends HttpServlet {
         request.getRequestDispatcher(path).forward(request,response);
     }
 
+
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 

@@ -90,6 +90,7 @@ public class Category {
         while (rs.next()) {
             categoryName=rs.getString("CategoryName");
         }
+
         return categoryName;
     }
 }

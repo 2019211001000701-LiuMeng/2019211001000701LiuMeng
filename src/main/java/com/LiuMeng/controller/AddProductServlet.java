@@ -51,6 +51,7 @@ public class AddProductServlet extends HttpServlet {
         product.setPrice(price);
         product.setCategoryId(categoryId);
         ProductDao productDao=new ProductDao();
+
         try {
             int n=productDao.save(product,con);
             if(n>0)
