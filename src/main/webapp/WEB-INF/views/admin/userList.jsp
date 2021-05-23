@@ -58,7 +58,6 @@
 								<a class="cart_quantity_delete" href="<%=basePath%>admin/userDelete?userId=id" ><i class="fa fa-times"></i></a>
 							</td>
 						</tr>
-						</c:forEach>
 						<!-- loop_end -->
 		</tbody>
 		</table>
