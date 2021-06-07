@@ -18,7 +18,6 @@ import java.util.List;
 @WebServlet(name = "OrderServlet", value = "/order")
 public class OrderServlet extends HttpServlet {
     Connection con=null;
-
     @Override
     public void init() throws ServletException {
         super.init();;

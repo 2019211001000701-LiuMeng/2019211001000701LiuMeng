@@ -176,3 +176,4 @@
     </form>
 </section> <!--/#cart_items-->
 <%@include file="footer.jsp" %>
+
