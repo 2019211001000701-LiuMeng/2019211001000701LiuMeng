@@ -72,10 +72,10 @@
                                     </td>
                                     <td class="cart_total">
                                         <%
-                                            com.ZhouWeiqiang.model.Order o=(com.ZhouWeiqiang.model.Order)pageContext.findAttribute("o");
+                                            com.LiuMeng.model.Order o=(com.LiuMeng.model.Order)pageContext.findAttribute("o");
                                             int n=o.getPaymentId();
                                             java.sql.Connection con=(java.sql.Connection)application.getAttribute("con");
-                                            String paymentType=com.ZhouWeiqiang.model.Payment.findByPaymentId(con,n);
+                                            String paymentType=com.LiuMeng.model.Payment.findByPaymentId(con,n);
                                         %>
                                         <p class="cart_total_price"><%=paymentType %></p>
                                     </td>
