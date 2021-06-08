@@ -96,4 +96,14 @@
         <filter-name>HelloFilter</filter-name>
         <url-pattern>/hello-servlet</url-pattern>
     </filter-mapping>-->
+
+    <filter>
+        <filter-name>YourNameFilter</filter-name>
+        <filter-class>com.lab2.YourNameFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>YourNameFilter</filter-name>
+        <url-pattern>/lab2/welcome.jsp</url-pattern>
+        <url-pattern>/lab2/validation.jsp</url-pattern>
+    </filter-mapping>
 </web-app>
