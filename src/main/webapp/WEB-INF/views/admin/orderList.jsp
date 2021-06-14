@@ -152,6 +152,5 @@
 a{   cursor: pointer;   text-decoration:none;   }   /* This is for the positioning of the Close Link */
 #popupBoxClose {     font-size:15px;       line-height:15px;       right:5px;       top:5px;       position:absolute;       color:#6fa5e2;       font-weight:500;       }
 </style>
-
 <%@include file="../footer.jsp" %>
 
